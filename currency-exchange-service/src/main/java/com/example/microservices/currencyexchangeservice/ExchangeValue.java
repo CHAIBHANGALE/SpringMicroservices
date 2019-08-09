@@ -1,11 +1,8 @@
 package com.example.microservices.currencyexchangeservice;
 
 import java.math.BigDecimal;
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
-
-
 
 @Entity
 public class ExchangeValue {
