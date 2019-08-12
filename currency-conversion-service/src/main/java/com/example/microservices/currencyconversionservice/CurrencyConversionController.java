@@ -31,7 +31,7 @@ public class CurrencyConversionController {
 		
 		CurrencyConversionBean response = responseEntity.getBody();
 		
-		return new CurrencyConversionBean(response.getId(),from,to,response.getConversionMultiple(),
+		 return new CurrencyConversionBean(response.getId(),from,to,response.getConversionMultiple(),
 				quantity,quantity.multiply(response.getConversionMultiple()),response.getPort());
 		
 	}
